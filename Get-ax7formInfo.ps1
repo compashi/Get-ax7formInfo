@@ -17,7 +17,7 @@
 .LINK
     https://github.com/mazzy-ax/Get-ax7formInfo
 
-.NOTE
+.NOTES
     The cmdlet uses the Split-Pipeline to provide parallel data processing.
     Use command to install module from the PowerShellGallery
     > Install-Module -Name SplitPipeline
