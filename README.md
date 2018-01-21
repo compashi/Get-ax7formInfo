@@ -12,12 +12,8 @@ The cmdlet collects an information about form controls from Dynamics 365 For Ope
 2. save to csv-file
 3. open csv-file in a related csv-editor (MS Excel commonly)
 
-.NOTE
+NOTE
 
-The cmdlet uses the Split-Pipeline to provide parallel data processing. To install module from the PowerShellGallery use the command:
+The cmdlet uses the [https://github.com/nightroman/SplitPipeline](Split-Pipeline) to provide parallel data processing. To install module from the PowerShellGallery use the command:
 
     Install-Module -Name SplitPipeline
-
-.LINK
-
-    [https://github.com/nightroman/SplitPipeline](https://github.com/nightroman/SplitPipeline)
